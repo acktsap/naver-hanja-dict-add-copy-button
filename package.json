@@ -4,8 +4,8 @@
   "description": "An extension for adding copy button to naver hanja dictionary.",
   "scripts": {
     "start": "yarn run start:chrome",
-    "start:chrome": "web-ext run -s ./src --browser-console --start-url https://duckduckgo.com --target chromium",
-    "start:firefox": "web-ext run -s ./src --browser-console --start-url https://duckduckgo.com --target firefox-desktop",
+    "start:chrome": "web-ext run -s ./src --browser-console --start-url https://hanja.dict.naver.com --target chromium",
+    "start:firefox": "web-ext run -s ./src --browser-console --start-url https://hanja.dict.naver.com --target firefox-desktop",
     "build": "web-ext build -s ./src --overwrite-dest -a dist"
   },
   "repository": {

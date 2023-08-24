@@ -1,0 +1,27 @@
+{
+  "name": "naver-hanja-dict-add-copy-button",
+  "version": "0.1.0",
+  "description": "An extension for adding copy button to naver hanja dictionary.",
+  "scripts": {
+    "start": "yarn run start:chrome",
+    "start:chrome": "web-ext run -s ./src --browser-console --start-url https://duckduckgo.com --target chromium",
+    "start:firefox": "web-ext run -s ./src --browser-console --start-url https://duckduckgo.com --target firefox-desktop",
+    "build": "web-ext build -s ./src --overwrite-dest -a dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acktsap/naver-hanja-dict-add-copy-button.git"
+  },
+  "keywords": [
+    "extension"
+  ],
+  "author": "Taeik lim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acktsap/naver-hanja-dict-add-copy-button/issues"
+  },
+  "homepage": "https://github.com/acktsap/naver-hanja-dict-add-copy-button#readme",
+  "devDependencies": {
+    "web-ext": "^7.6.2"
+  }
+}

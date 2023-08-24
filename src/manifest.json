@@ -1,0 +1,6 @@
+{
+  "manifest_version": 2,
+  "name": "naver-hanja-dict-add-copy-button",
+  "description": "An extension for adding copy button to naver hanja dictionary.",
+  "version": "0.1.0"
+}
